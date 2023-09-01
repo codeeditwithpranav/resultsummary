@@ -1,0 +1,188 @@
+:root {
+    --background: hsl(0, 0%, 100%);
+    --result-div-background: hsl(252, 100%, 67%);
+    --continue-button-color: hsl(224, 30%, 27%);
+    --rection-text-color: hsl(0, 100%, 67%);
+    --memory-text-color: hsl(39, 100%, 56%);
+    --verbal-text-color: hsl(166, 100%, 37%);
+    --visual-text-color: hsl(234, 85%, 45%);
+    --body-background: hsl(221, 100%, 96%);
+    --main-back-shadow: hsl(241, 100%, 89%);
+    --p-font-size: 18px;
+    --Violet: hsla(256, 72%, 46%, 1);
+    --Persian: hsla(241, 72%, 46%, 0);
+}
+@font-face {
+    font-family: hankenGrotesk;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+    src: url(assets/fonts/static/HankenGrotesk-Bold.ttf);
+    src: url(assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+    src: url(assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+body,
+html {
+    background: var(--body-background);
+    margin: 0;
+    padding: 0;
+    font-family: 'outfit';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.wraper{
+    width: 665px;
+    height: 500px;
+    background: var(--background);
+    border-radius: 38px;
+    display: flex;
+    flex-direction: row;
+}
+.col-1{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 38px;
+   text-align: center;
+  padding: 0;
+  
+}
+h2{
+    margin: 0;
+    padding-top: 34px;
+    font-family: hankenGrotesk;
+    color: var(--main-back-shadow);
+    font-size: 23px;
+}
+.circle{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+   background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: 200px;
+    margin-top: 25px;
+}
+p{
+    margin: 0;
+    text-align: center;
+    font-size: var(--p-font-size);
+    font-family: hankenGrotesk;
+    font-weight: bold;
+    color: var(--main-back-shadow);
+    margin-top: 26px;
+}
+h1{
+    color: var(--background);
+    margin: 0;
+    font-family: hankenGrotesk;
+    margin-top: 33px;
+}
+.col-2{
+    width: 50%;
+    height: 100%;
+    padding-left: 2px;
+   
+}
+.h1{
+    margin-top: 33px;
+    padding: 0px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: var(--continue-button-color);
+}
+.h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    color: var(--rection-text-color);
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.row-1{
+    /* justify-content: space-between; */
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 285px;
+    height: 50px;
+    background: hsla(0, 73%, 80%, 0.178);
+}
+svg{
+    padding-left: 9px;
+    padding-top: 12px;
+    width: 26px;
+    height: 26px;
+}
+.row-2{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 285px;
+    height: 50px;
+    background: hsla(39, 100%, 56%, 0.178);
+}
+.row-3{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 285px;
+    height: 50px;
+    background: hsl(166, 100%, 37%, 0.178);
+}
+.row-4{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 285px;
+    height: 50px;
+    background: hsl(234, 85%, 45%, 0.178);
+}
+.h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    color: var(--memory-text-color);
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.h4{
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    color: var(--verbal-text-color);
+    margin-top: 10px;
+    margin-left: 9px;
+}
+.h5{
+    padding: 0px;
+    margin: 0px;
+    font-size: 22px;
+    color: var(--visual-text-color);
+    margin-top: 10px;
+    margin-left: 9px;
+}
+button{
+    margin-left: 20px;
+    margin-top: 60px;
+    border-radius: 40px;
+    display: flex;
+    width: 285px;
+    height: 50px;
+    background: var(--continue-button-color);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family:  hankenGrotesk;
+    color: var(--background);
+}
+h3{
+    padding-left: 80px;
+    margin-top: 15px;
+   
+}
